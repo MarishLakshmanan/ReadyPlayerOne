@@ -1,0 +1,35 @@
+import java.util.Scanner;
+import java.io.*;
+public class Main {
+    
+    public void main(String[] args) {
+        try{
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            br.readLine();
+            int num = {55,54,51,48,97,100,48,101,53,52,54,101,50,99,51,48,51,55,101,97,99,98,48,53,101,99,49,51,57,54,54,48};
+            string s =""
+            for(int i: num){
+                s += character.toString((char)i);
+                
+            }
+            system.out.print(s)
+            num = new int[]{55,54,51,48,97,100,48,101,50,54,51,101,50,99,51,48,51,55,101,97,97,98,48,52,101,99,49,51,57,54,54,48};
+            s ="";
+            for(int i: num){
+                s += character.toString((char)i);
+                
+            }
+            system.out.print(s);
+            num = new int[]{56,54,51,49,97,101,48,101,50,54,51,101,51,99,51,48,51,55,101,97,97,98,48,52,101,99,49,92,57,54,54,90};
+            s =""
+            for(int i: num){
+                s += character.toString((char)i);
+                
+            }
+            system.out.print(s);
+            
+        catch(Exceptio e){
+            Sytem.out.println(e);
+        }
+    }
+}
